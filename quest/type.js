@@ -2,7 +2,8 @@ const employeeType = [
     {
         type: 'list',
         name: 'employeeType',
-        choices: ['Engineer', 'Intern'],
+        message: 'would you like to cintunue or add another employee?',
+        choices: ['Engineer', 'Intern', 'All finished!'],
         validate: employeeTypeInput => {
             if (employeeTypeInput) {
                 return true;

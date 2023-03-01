@@ -47,18 +47,6 @@ const engineerQuestions = [
             }
         }
     },
-    {
-        type: 'list',
-        name: 'continue',
-        choices: ['Continue?', 'All finished!'],
-        validate: continueInput => {
-            if (continueInput) {
-                return true;
-            } else {
-                console.log('please select an option')
-            }
-        }
-    }
 ];
 
 module.exports = engineerQuestions

@@ -37,25 +37,13 @@ const internQuestions = [
     },
     {
         type: 'input',
-        name: 'gitHub',
+        name: 'school',
         message: 'what school does this intern attend?',
         validate: officeInput => {
             if (officeInput) {
                 return true;
             } else {
                 console.log('Please enter what school this intern attends ')
-            }
-        }
-    },
-    {
-        type: 'list',
-        name: 'continue',
-        choices: ['Continue?', 'All finished!'],
-        validate: continueInput => {
-            if (continueInput) {
-                return true;
-            } else {
-                console.log('please select an option')
             }
         }
     }
