@@ -2,7 +2,7 @@ const employeeType = [
     {
         type: 'list',
         name: 'employeeType',
-        choices: ['engineer', 'intern'],
+        choices: ['Engineer', 'Intern'],
         validate: employeeTypeInput => {
             if (employeeTypeInput) {
                 return true;

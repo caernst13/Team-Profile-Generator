@@ -8,7 +8,6 @@ const engineerQuestions = [
                 return true;
             } else {
                 console.log('Please enter this engineers name')
-                return false;
             }
         }
     },
@@ -21,7 +20,6 @@ const engineerQuestions = [
                 return true;
             } else {
                 console.log('Please enter this engineers id')
-                return false;
             }
         }
     },
@@ -34,7 +32,6 @@ const engineerQuestions = [
                 return true;
             } else {
                 console.log('Please enter this engineers email')
-                return false;
             }
         }
     },
@@ -47,7 +44,6 @@ const engineerQuestions = [
                 return true;
             } else {
                 console.log('Please enter this engineers gitHub')
-                return false;
             }
         }
     },

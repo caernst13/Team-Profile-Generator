@@ -8,7 +8,6 @@ const initialQuestions = [
                 return true;
             } else {
                 console.log('Please enter your managers name')
-                return false;
             }
         }
     },
@@ -21,7 +20,6 @@ const initialQuestions = [
                 return true;
             } else {
                 console.log('Please enter your managers id')
-                return false;
             }
         }
     },
@@ -34,20 +32,18 @@ const initialQuestions = [
                 return true;
             } else {
                 console.log('Please enter your managers email')
-                return false;
             }
         }
     },
     {
-        type: 'input',
+        type: 'number',
         name: 'officeNumber',
-        message: 'What is the name of your teams manager?',
+        message: 'What is the office number of your teams manager?',
         validate: officeInput => {
             if (officeInput) {
                 return true;
             } else {
-                console.log('Please enter your managers name')
-                return false;
+                console.log('Please enter your managers office number')
             }
         }
     },

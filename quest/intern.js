@@ -8,7 +8,6 @@ const internQuestions = [
                 return true;
             } else {
                 console.log('Please enter this interns name')
-                return false;
             }
         }
     },
@@ -21,7 +20,6 @@ const internQuestions = [
                 return true;
             } else {
                 console.log('Please enter this interns id')
-                return false;
             }
         }
     },
@@ -34,7 +32,6 @@ const internQuestions = [
                 return true;
             } else {
                 console.log('Please enter this interns email')
-                return false;
             }
         }
     },
@@ -47,7 +44,6 @@ const internQuestions = [
                 return true;
             } else {
                 console.log('Please enter what school this intern attends ')
-                return false;
             }
         }
     },
