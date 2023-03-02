@@ -1,3 +1,4 @@
+// arrray of questions asked when the user wants to add the manager
 const initialQuestions = [
     {
         type: 'input',

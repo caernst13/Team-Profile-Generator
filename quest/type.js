@@ -1,3 +1,4 @@
+//question asked when the user decides if they want to add another emplpoyee or stop and make the html page
 const employeeType = [
     {
         type: 'list',

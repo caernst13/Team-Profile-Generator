@@ -1,7 +1,7 @@
 body{
     margin: 5px 0;
   }
-  
+  /* styling for the cards and card hover so they look a little nicer */
   .card{
     border-radius: 8px;
     border: 1px solid #cccccc;

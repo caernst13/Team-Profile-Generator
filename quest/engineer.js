@@ -1,3 +1,4 @@
+//array of questions asked when the user wants to add an engineer
 const engineerQuestions = [
     {
         type: 'input',
