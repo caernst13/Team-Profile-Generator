@@ -86,7 +86,7 @@ const finishBuild = () => {
               <p class="card-text">email: ${engineers[i].email}</p>
               <a href="mailto: ${engineers[i].email}" class="btn btn-primary">Send Email</a>
               <p class="card-text">gitHub username: ${engineers[i].gitHub}</p>
-              <a href="github.com/${engineers[i].gitHub}" class="btn btn-primary">gitHub link</a>
+              <a href="github.com/${engineers[i].gitHub}" target="_blank" class="btn btn-primary">gitHub link</a>
             </div>
           </div>`
 
@@ -118,7 +118,6 @@ const finishBuild = () => {
         err ? console.log(err) : console.log('Successfully updated index.html!')
         );
 }
-
 
 init();
 
