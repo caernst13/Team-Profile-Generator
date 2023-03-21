@@ -29,6 +29,7 @@ const init = () => {inquirer.prompt(initialQuestions).then((data) => {
 
 //question allowing user to add more imployees or created the html page
 const continueQuest = () => {inquirer.prompt(employeeType).then((data) => {
+  console.log(data)
     if (data.employeeType === 'Engineer') {
         addEngineer();
     } else if (data.employeeType === 'Intern') {
